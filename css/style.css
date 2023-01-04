@@ -95,8 +95,11 @@ section.descricao p{
     margin-top: 30px;
 }
 
+
+
 section.descricao h2 > span,
-section.descricao h3 > span{    
+section.descricao h3 > span,
+section.descricao p > span{    
     color: var(--main-deco-color);
 }
 
@@ -136,7 +139,7 @@ section.sobre h3{
 section.experiencia{
     margin-left: 40px;
     position: absolute;
-    top: 180%;
+    top: 160%;
     transform: translateY(-50%);
     color: var(--main-deco-color);
 }
