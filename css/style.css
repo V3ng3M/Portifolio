@@ -99,7 +99,9 @@ section.descricao p{
 
 section.descricao h2 > span,
 section.descricao h3 > span,
-section.descricao p > span{    
+section.descricao p > span,
+section.experiencia p > span,
+section.hobies p > span{    
     color: var(--main-deco-color);
 }
 
@@ -169,4 +171,21 @@ section.formacao p{
 section.formacao h3{
     margin-bottom: 10px;
     font-size: 25px;
+}
+
+section.hobies{
+    margin-left: 40px;
+    position: absolute;
+    top: 240%;
+    transform: translateY(-50%); 
+}
+
+section.hobies h3{
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: var(--main-deco-color);
+}
+
+section.hobies p{
+    color: var(--main-text-color);
 }
